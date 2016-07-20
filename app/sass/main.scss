@@ -11,4 +11,6 @@ $susy: (
 @include border-box-sizing;
 
 @import "variabless.scss";
+@import "mixin.scss";
+@import "grid.scss";
 @import "header.scss";
