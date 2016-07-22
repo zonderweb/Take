@@ -1,0 +1,28 @@
+.top-panel__wrap,
+.promo-box,
+.top-info__box,
+.widget-box {
+	@include container();
+}
+.promo__wrap {
+	@include span(5);
+}
+
+.top-info__block {
+	@include span(6);
+	&--last {
+		@include span(6 last);
+	}
+}
+
+.widget__normal {
+	@include span(4 wide);
+	margin-right: 0;
+}
+.widget__last {
+	@include span(4 last);
+}
+.widget__double {
+	@include span(8 wide);
+	margin-right: 0;
+}

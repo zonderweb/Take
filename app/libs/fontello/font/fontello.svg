@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="heart-empty" unicode="&#xe800;" d="M1063 562v-60q0-285-532-653-531 367-531 653v60q0 127 81 207t206 80q81 0 134-30t110-99q58 68 111 99t133 30q126 0 207-80t81-207z m-117-55v50q0 58-39 114t-95 61q-12 2-37 2-53 0-83-19t-72-69l-89-105-89 105q-42 49-72 69t-83 19q-24 0-37-2-56-6-93-60t-41-115v-50q0-30 17-75 68-199 398-441 329 239 399 441 16 50 16 75z" horiz-adv-x="1063" />
+
+<glyph glyph-name="ok" unicode="&#xe801;" d="M1179 778q-250-222-600-750l-115-179q-144 180-464 500l107 107 286-250q150 150 279 272t206 187 131 111 77 59l21 14q4 0 11-2t26-19 35-50z" horiz-adv-x="1179" />
+
+<glyph glyph-name="apple" unicode="&#xf179;" d="M777 172q-21-70-68-139-72-110-144-110-27 0-78 18-48 18-84 18-34 0-79-19-46-19-74-19-85 0-168 145-82 146-82 281 0 127 63 208 63 81 159 81 40 0 98-17 58-17 77-17 25 0 80 19 57 19 97 19 66 0 119-36 29-20 58-56-45-37-64-66-36-52-36-115 0-69 38-125t88-70z m-209 655q0-34-17-76-16-42-52-77-30-30-60-41-20-6-58-9 2 83 44 143 41 60 139 83 1-2 2-6t1-6q0-3 0-6t1-5z" horiz-adv-x="785.7" />
+
+<glyph glyph-name="windows" unicode="&#xf17a;" d="M381 289v-364l-381 53v311h381z m0 414v-367h-381v315z m548-414v-439l-507 70v369h507z m0 490v-443h-507v373z" horiz-adv-x="928.6" />
+</font>
+</defs>
+</svg>
