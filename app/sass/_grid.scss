@@ -3,7 +3,8 @@
 .top-info__box,
 .widget-box,
 .privilege-box,
-.morepower-box {
+.morepower-box,
+.greenpromo-box {
 	@include container();
 }
 .promo__wrap {
@@ -36,4 +37,10 @@
 }
 .morepower-wrapper {
 	@include span(5 wide);
+}
+.greenpromo__widget {
+	@include span(4);
+	&:last-child {
+		@include span(4 last);
+	}
 }

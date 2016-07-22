@@ -1,0 +1,19 @@
+.greenpromo {
+	color: $white;
+	background: $green-light;
+	padding-top: 115px;
+	padding-bottom: 145px;
+}
+.greenpromo__title {
+	color: $white;
+}
+.greenpromo__widget {
+	line-height: 1.500em;
+	span {
+		font-size: 0.813em;
+		font-weight: $medium;
+	}
+	p {
+		font-size: 0.875em;
+	}
+}

@@ -7,7 +7,8 @@
 .top-info__box,
 .widget-box,
 .privilege-box,
-.morepower-box {
+.morepower-box,
+.greenpromo-box {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto; }
@@ -16,7 +17,8 @@
   .top-info__box:after,
   .widget-box:after,
   .privilege-box:after,
-  .morepower-box:after {
+  .morepower-box:after,
+  .greenpromo-box:after {
     content: " ";
     display: block;
     clear: both; }
@@ -65,6 +67,15 @@
   width: 42.73402%;
   float: left;
   margin-right: 2.49767%; }
+
+.greenpromo__widget {
+  width: 31.62557%;
+  float: left;
+  margin-right: 2.56165%; }
+  .greenpromo__widget:last-child {
+    width: 31.62557%;
+    float: right;
+    margin-right: 0; }
 
 body {
   color: #959595;
@@ -224,3 +235,20 @@ body {
 .morepower-wrapper .promo-text {
   line-height: 1.750em;
   padding-right: 60px; }
+
+.greenpromo {
+  color: #fff;
+  background: #82ca9c;
+  padding-top: 115px;
+  padding-bottom: 145px; }
+
+.greenpromo__title {
+  color: #fff; }
+
+.greenpromo__widget {
+  line-height: 1.500em; }
+  .greenpromo__widget span {
+    font-size: 0.813em;
+    font-weight: 600; }
+  .greenpromo__widget p {
+    font-size: 0.875em; }
