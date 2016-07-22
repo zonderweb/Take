@@ -1,0 +1,19 @@
+.morepower {
+	background:transparent url('../img/section-bg.jpg') center top no-repeat;
+	background-size: cover;
+	height: 875px;
+	padding-top: 450px;
+}
+.morepower-box {
+	color: $white;
+}
+.morepower-wrapper {
+	.promo-title {
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+	.promo-text {
+		line-height: 1.750em;
+		padding-right: 60px;
+	}
+}

@@ -6,7 +6,8 @@
 .promo-box,
 .top-info__box,
 .widget-box,
-.privilege-box {
+.privilege-box,
+.morepower-box {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto; }
@@ -14,7 +15,8 @@
   .promo-box:after,
   .top-info__box:after,
   .widget-box:after,
-  .privilege-box:after {
+  .privilege-box:after,
+  .morepower-box:after {
     content: " ";
     display: block;
     clear: both; }
@@ -58,6 +60,11 @@
     width: 23.07876%;
     float: right;
     margin-right: 0; }
+
+.morepower-wrapper {
+  width: 42.73402%;
+  float: left;
+  margin-right: 2.49767%; }
 
 body {
   color: #959595;
@@ -200,3 +207,20 @@ body {
     font-weight: 600; }
   .privilege-widget p {
     font-size: 0.875em; }
+
+.morepower {
+  background: transparent url("../img/section-bg.jpg") center top no-repeat;
+  background-size: cover;
+  height: 875px;
+  padding-top: 450px; }
+
+.morepower-box {
+  color: #fff; }
+
+.morepower-wrapper .promo-title {
+  display: inline-block;
+  margin-bottom: 10px; }
+
+.morepower-wrapper .promo-text {
+  line-height: 1.750em;
+  padding-right: 60px; }
