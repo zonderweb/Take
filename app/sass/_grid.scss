@@ -1,7 +1,8 @@
 .top-panel__wrap,
 .promo-box,
 .top-info__box,
-.widget-box {
+.widget-box,
+.privilege-box {
 	@include container();
 }
 .promo__wrap {
@@ -25,4 +26,10 @@
 .widget__double {
 	@include span(8 wide);
 	margin-right: 0;
+}
+.privilege-widget {
+	@include span(3);
+	&:last-child {
+		@include span(3 last);
+	} 
 }

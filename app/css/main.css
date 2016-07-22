@@ -5,14 +5,16 @@
 .top-panel__wrap,
 .promo-box,
 .top-info__box,
-.widget-box {
+.widget-box,
+.privilege-box {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto; }
   .top-panel__wrap:after,
   .promo-box:after,
   .top-info__box:after,
-  .widget-box:after {
+  .widget-box:after,
+  .privilege-box:after {
     content: " ";
     display: block;
     clear: both; }
@@ -47,6 +49,15 @@
   float: left;
   margin-right: 2.49767%;
   margin-right: 0; }
+
+.privilege-widget {
+  width: 23.07876%;
+  float: left;
+  margin-right: 2.56165%; }
+  .privilege-widget:last-child {
+    width: 23.07876%;
+    float: right;
+    margin-right: 0; }
 
 body {
   color: #959595;
@@ -117,7 +128,7 @@ body {
 .iphone {
   position: absolute;
   top: 311px;
-  right: 95px;
+  right: 20px;
   z-index: 999;
   max-width: 100%;
   height: auto; }
@@ -126,7 +137,8 @@ body {
   padding-top: 135px; }
 
 .widget-box {
-  color: #fff; }
+  color: #fff;
+  margin-bottom: 90px; }
 
 .color__rose {
   background: #f5989d; }
@@ -176,3 +188,15 @@ body {
   position: absolute;
   bottom: 40px;
   right: 40px; }
+
+.privilege-box__title {
+  margin-bottom: 55px;
+  display: block; }
+
+.privilege-widget {
+  line-height: 1.500em; }
+  .privilege-widget span {
+    font-size: 0.813em;
+    font-weight: 600; }
+  .privilege-widget p {
+    font-size: 0.875em; }
