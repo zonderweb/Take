@@ -51,7 +51,8 @@
 body {
   color: #959595;
   font-family: "Open Sans", sans-serif;
-  min-width: 320px; }
+  min-width: 320px;
+  position: relative; }
 
 .header {
   color: #fff;
@@ -113,15 +114,12 @@ body {
 .top-info__box {
   margin-bottom: 65px; }
 
-.top-info__block--last {
-  position: relative; }
-
 .iphone {
   position: absolute;
-  top: -629px;
-  left: -35px;
+  top: 311px;
+  right: 95px;
   z-index: 999;
-  width: 100%;
+  max-width: 100%;
   height: auto; }
 
 .margin-wrap {
