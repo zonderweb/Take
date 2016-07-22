@@ -1,0 +1,55 @@
+.plan {
+	background: $grey-f6;
+	padding-top: 115px;
+	padding-bottom: 145px;
+}
+.plan-widget {
+	padding: 50px 53px;
+	p {
+		font-size: 0.875em;
+		line-height: 1.563em;
+		color: $gray-82;
+	}
+}
+.plan-widget__mostpop {
+	background: $white;
+	box-shadow: 0px 0px 22px 1px rgba(89,89,89,0.28);
+}
+.legacy {
+	padding: 5px 10px;
+	background: $grey-e1;
+	border-radius: 5px;
+	color: $white;
+	text-transform: uppercase;
+	font-size: 0.688em;
+	line-height: 1.375em;
+	font-weight: $bold;
+	display: inline-block;
+}
+.most-pop {
+	background: $sireneviy-light;
+}
+.plan-widget__title {
+	font-size: 1.875em;
+	line-height: 2.500em;
+	font-weight: $light;
+	color: #2e3b4e;
+	display: block;
+}
+.buy-now {
+	text-decoration: none;
+	color: $white;
+	font-weight: $bold;
+	font-size: 0.813em;
+	line-height: 1.375em;
+	background: $green-light;
+	border-radius: 5px;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.brand-icon {
+	text-decoration: none;
+	color: $grey-c5;
+	font-size: 1.350em;
+}

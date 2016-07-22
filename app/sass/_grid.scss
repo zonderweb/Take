@@ -4,20 +4,22 @@
 .widget-box,
 .privilege-box,
 .morepower-box,
-.greenpromo-box {
+.greenpromo-box,
+.plan-box {
 	@include container();
+	margin-left: gutter();
+	margin-right: gutter();
 }
+
 .promo__wrap {
 	@include span(5);
 }
-
 .top-info__block {
 	@include span(6);
 	&--last {
 		@include span(6 last);
 	}
 }
-
 .widget__normal {
 	@include span(4 wide);
 	margin-right: 0;
@@ -42,5 +44,11 @@
 	@include span(4);
 	&:last-child {
 		@include span(4 last);
+	}
+}
+.plan-widget {
+	@include span(6);
+	&:last-child {
+		@include span(6 last);
 	}
 }
