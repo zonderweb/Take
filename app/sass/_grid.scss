@@ -5,7 +5,9 @@
 .privilege-box,
 .morepower-box,
 .greenpromo-box,
-.plan-box {
+.plan-box,
+.footer-box__top,
+.footer-box__bottom {
 	@include container();
 	margin-left: gutter();
 	margin-right: gutter();
@@ -51,4 +53,13 @@
 	&:last-child {
 		@include span(6 last);
 	}
+}
+.footer-info {
+	@include span(7);
+}
+.footer-subscr {
+	@include span(5 last);
+}
+.footer-menu {
+	@include span(2);
 }

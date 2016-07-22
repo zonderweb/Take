@@ -9,7 +9,9 @@
 .privilege-box,
 .morepower-box,
 .greenpromo-box,
-.plan-box {
+.plan-box,
+.footer-box__top,
+.footer-box__bottom {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
@@ -22,7 +24,9 @@
   .privilege-box:after,
   .morepower-box:after,
   .greenpromo-box:after,
-  .plan-box:after {
+  .plan-box:after,
+  .footer-box__top:after,
+  .footer-box__bottom:after {
     content: " ";
     display: block;
     clear: both; }
@@ -89,6 +93,21 @@
     width: 48.71918%;
     float: right;
     margin-right: 0; }
+
+.footer-info {
+  width: 57.26598%;
+  float: left;
+  margin-right: 2.56165%; }
+
+.footer-subscr {
+  width: 40.17237%;
+  float: right;
+  margin-right: 0; }
+
+.footer-menu {
+  width: 14.53196%;
+  float: left;
+  margin-right: 2.56165%; }
 
 body {
   color: #959595;
@@ -322,3 +341,67 @@ body {
   text-decoration: none;
   color: #c5c5c5;
   font-size: 1.350em; }
+  .brand-icon:hover {
+    color: #f5989d; }
+
+.footer {
+  color: #fff;
+  background: #192431;
+  padding-top: 115px;
+  padding-bottom: 145px;
+  font-size: 0.813em;
+  line-height: 1.500em; }
+
+.footer-info {
+  padding-right: 100px; }
+
+.footer-info__title {
+  margin-bottom: 25px; }
+
+.footer-subscr p {
+  color: #57697f; }
+
+.footer-subscr form {
+  margin-bottom: 15px; }
+  .footer-subscr form:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.subscr-inpt {
+  width: 85.10131%;
+  float: left;
+  margin-right: 5.9944%;
+  border: none;
+  outline: none;
+  width: 85.1063%;
+  margin-right: 0;
+  padding: 20px 15px;
+  font-size: 1.125em;
+  text-transform: uppercase; }
+
+.sbscr-btn {
+  width: 14.89869%;
+  float: right;
+  margin-right: 0;
+  border: none;
+  background: #82ca9c;
+  color: #fff;
+  cursor: pointer;
+  padding: 20px 15px; }
+  .sbscr-btn i {
+    font-weight: 300; }
+
+.ftr-menu__list {
+  margin: 0;
+  padding: 0; }
+
+.ftr-menu__item {
+  list-style-type: none;
+  margin-bottom: 5px; }
+
+.ftr-menu__link {
+  color: #fff;
+  text-decoration: none; }
+  .ftr-menu__link:hover {
+    text-decoration: underline; }

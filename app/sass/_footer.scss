@@ -1,0 +1,59 @@
+.footer {
+	color: $white;
+	background: $dark-blue;
+	padding-top: 115px;
+	padding-bottom: 145px;
+	font-size: 0.813em;
+	line-height: 1.500em;
+}
+.footer-info {
+	padding-right: 100px;
+}
+.footer-info__title {
+	margin-bottom: 25px;
+}
+.footer-subscr {
+	p {
+		color: $blue-57;
+	}
+	form {
+		@include cf;
+		margin-bottom: 15px;
+	}
+}
+.subscr-inpt {
+	@include span(4 of 5 wide);
+	border: none;
+	outline: none;
+	width: 85.1063%;
+	margin-right: 0;
+	padding: 20px 15px;
+	font-size: 1.125em;
+	text-transform: uppercase;
+}
+.sbscr-btn {
+	@include span(1 of 5 last);
+	border: none;
+	background: $green-light;
+	color: $white;
+	cursor: pointer;
+	padding: 20px 15px;
+	i {
+		font-weight: $light;
+	}
+}
+.ftr-menu__list {
+	margin: 0;
+	padding: 0;
+}
+.ftr-menu__item {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+.ftr-menu__link {
+	color: $white;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
