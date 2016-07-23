@@ -1,0 +1,34 @@
+/* TOP INFO */ 
+.top-info {
+	padding-top: 110px;
+	padding-bottom: 160px;
+	@media screen and (max-width: 768px) {
+		padding-bottom: 110px;
+		padding-top: 40px;
+	}
+	@media screen and (max-width: 670px) {
+		padding-bottom: 40px;
+	}
+}
+.top-info__block {
+	p {
+		font-size: 0.875em;
+		line-height: 1.500em;
+		font-weight: $normal;
+		color: $gray;
+		margin-bottom: 20px;
+	}
+}
+.top-info__title {
+	font-size: 2.188em;
+	line-height: 1.500em;
+	font-weight: $light;
+	color: $black;
+}
+.top-info__box {
+	margin-bottom: 65px;
+}
+.top-info__block--last {}
+.margin-wrap {
+	padding-top: 135px;
+}

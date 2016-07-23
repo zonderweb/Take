@@ -3,6 +3,9 @@
 	background: $grey-f6;
 	padding-top: 115px;
 	padding-bottom: 145px;
+	@media screen and (max-width: 768px) {
+		padding-bottom: 110px;
+	}
 }
 .plan-widget {
 	padding: 50px 53px;

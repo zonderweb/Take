@@ -2,6 +2,9 @@
 .privilege-box__title {
 	margin-bottom: 55px;
 	display: block;
+	@media screen and (max-width: 670px) {
+		margin-bottom: 35px;
+	}
 }
 .privilege-widget {
 	line-height: 1.500em;
@@ -11,5 +14,8 @@
 	}
 	p {
 		font-size: 0.875em;
+	}
+	@media screen and (max-width: 670px) {
+		margin-bottom: gutter();
 	}
 }

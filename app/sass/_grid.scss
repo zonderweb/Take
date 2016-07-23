@@ -34,14 +34,32 @@
 	@include span(8 wide);
 	margin-right: 0;
 }
+.widget__normal,
+.widget__last,
+.widget__double {
+	@media screen and (max-width: 670px) {
+		@include span(12);
+	}
+}
+
 .privilege-widget {
 	@include span(3);
 	&:last-child {
 		@include span(3 last);
 	} 
+	@media screen and (max-width: 670px) {
+		@include span(6);
+		&:nth-child(2),
+		&:last-child {
+			@include span(6 last);
+		}
+	}
 }
 .morepower-wrapper {
 	@include span(5 wide);
+	@media screen and (max-width: 786px) {
+		@include span(8 wide);
+	}
 }
 .greenpromo__widget {
 	@include span(4);

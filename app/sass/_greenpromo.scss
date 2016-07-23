@@ -4,6 +4,9 @@
 	background: $green-light;
 	padding-top: 115px;
 	padding-bottom: 145px;
+	@media screen and (max-width: 768px) {
+		padding-bottom: 110px;
+	}
 }
 .greenpromo__title {
 	color: $white;

@@ -49,30 +49,6 @@ body {
 	font-size: 0.813em;
 	line-height: 1.563em;
 }
-/* TOP INFO */ 
-.top-info {
-	padding-top: 110px;
-	padding-bottom: 160px;
-}
-.top-info__block {
-	p {
-		font-size: 0.875em;
-		line-height: 1.500em;
-		font-weight: $normal;
-		color: $gray;
-		margin-bottom: 20px;
-	}
-}
-.top-info__title {
-	font-size: 2.188em;
-	line-height: 1.500em;
-	font-weight: $light;
-	color: $black;
-}
-.top-info__box {
-	margin-bottom: 65px;
-}
-.top-info__block--last {}
 .iphone {
 	position: absolute;
 	top: 311px;
@@ -80,7 +56,9 @@ body {
 	z-index: 999;
 	max-width: 100%;
 	height: auto;
-}
-.margin-wrap {
-	padding-top: 135px;
+	@media screen and (max-width: 768px) {
+		top: 625px;
+		right: 80px;
+		max-width: 50%;
+	}
 }

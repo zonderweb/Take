@@ -6,6 +6,14 @@
 	padding-bottom: 145px;
 	font-size: 0.813em;
 	line-height: 1.500em;
+	@media screen and (max-width: 768px) {
+		padding-bottom: 110px;
+	}
+}
+.footer-box__top {
+	@media screen and (max-width: 670px) {
+		margin-bottom: 30px;
+	}
 }
 .footer-info {
 	padding-right: 100px;
@@ -41,6 +49,12 @@
 	padding: 20px 15px;
 	i {
 		font-weight: $light;
+	}
+}
+.subscr-inpt,
+.sbscr-btn {
+	@media screen and (max-width: 885px) {
+		padding: 10px 7px;
 	}
 }
 .ftr-menu__list {

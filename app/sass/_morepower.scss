@@ -4,6 +4,13 @@
 	background-size: cover;
 	height: 875px;
 	padding-top: 450px;
+	@media screen and (max-width: 885px) {
+		height: 675px;
+		padding-top: 180px;
+	}
+	@media screen and (max-width: 768px) {
+		height: 575px;
+	}
 }
 .morepower-box {
 	color: $white;
