@@ -17,6 +17,9 @@
 }
 .footer-info {
 	padding-right: 100px;
+	@media screen and (max-width: 670px) {
+		padding-right: 50px;
+	}
 }
 .footer-info__title {
 	margin-bottom: 25px;
@@ -32,6 +35,10 @@
 }
 .subscr-inpt {
 	@include span(4 of 5 wide);
+		@media screen and(max-width: 580px) {
+			@include span(10 of 12 wide);
+			margin-right: 0;
+		}
 	border: none;
 	outline: none;
 	width: 85.1063%;
@@ -42,6 +49,9 @@
 }
 .sbscr-btn {
 	@include span(1 of 5 last);
+		@media screen and(max-width: 580px) {
+			@include span(2 of 12 last);
+		}
 	border: none;
 	background: $green-light;
 	color: $white;

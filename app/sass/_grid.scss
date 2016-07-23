@@ -16,11 +16,20 @@
 
 .promo__wrap {
 	@include span(5);
+	@media screen and (max-width: 580px) {
+		@include span(6);
+	}
+	@media screen and (max-width: 414px) {
+		@include span(12);
+	}
 }
 .top-info__block {
 	@include span(6);
 	&--last {
 		@include span(6 last);
+	}
+	@media screen and (max-width: 580px) {
+		@include span(12);
 	}
 }
 .widget__normal {
@@ -54,11 +63,21 @@
 			@include span(6 last);
 		}
 	}
+	@media screen and (max-width: 580px) {
+		@include span(12);
+		&:nth-child(2),
+		&:last-child {
+			@include span(12);
+		}
+	}
 }
 .morepower-wrapper {
 	@include span(5 wide);
 	@media screen and (max-width: 786px) {
 		@include span(8 wide);
+	}
+	@media screen and (max-width: 580px) {
+		@include span(12);
 	}
 }
 .greenpromo__widget {
@@ -66,11 +85,23 @@
 	&:last-child {
 		@include span(4 last);
 	}
+	@media screen and (max-width: 580px) {
+		@include span(12);
+		&:last-child {
+			@include span(12);
+		}
+	}
 }
 .plan-widget {
 	@include span(6);
 	&:last-child {
 		@include span(6 last);
+	}
+	@media screen and (max-width: 580px) {
+		@include span(12);
+		&:last-child {
+			@include span(12);
+		}
 	}
 }
 .footer-info {
@@ -79,6 +110,18 @@
 .footer-subscr {
 	@include span(5 last);
 }
+.footer-info,
+.footer-subscr {
+	@media screen and (max-width: 580px) {
+		@include span(12);
+	}
+}
 .footer-menu {
 	@include span(2);
+	@media screen and (max-width: 580px) {
+		@include span(4);
+		&:last-child {
+			@include span(4 last);
+		}
+	}
 }

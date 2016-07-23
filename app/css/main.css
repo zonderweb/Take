@@ -37,6 +37,17 @@
   width: 40.17237%;
   float: left;
   margin-right: 2.56165%; }
+  @media screen and (max-width: 580px) {
+    .promo__wrap {
+      width: 48.71918%;
+      float: left;
+      margin-right: 2.56165%; } }
+  @media screen and (max-width: 414px) {
+    .promo__wrap {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0; } }
 
 .top-info__block {
   width: 48.71918%;
@@ -46,6 +57,12 @@
     width: 48.71918%;
     float: right;
     margin-right: 0; }
+  @media screen and (max-width: 580px) {
+    .top-info__block {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0; } }
 
 .widget__normal {
   width: 34.18722%;
@@ -90,6 +107,17 @@
         width: 48.71918%;
         float: right;
         margin-right: 0; } }
+  @media screen and (max-width: 580px) {
+    .privilege-widget {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0; }
+      .privilege-widget:nth-child(2), .privilege-widget:last-child {
+        width: 100%;
+        float: left;
+        margin-left: 0;
+        margin-right: 0; } }
 
 .morepower-wrapper {
   width: 42.73402%;
@@ -100,6 +128,12 @@
       width: 68.37443%;
       float: left;
       margin-right: 2.49767%; } }
+  @media screen and (max-width: 580px) {
+    .morepower-wrapper {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0; } }
 
 .greenpromo__widget {
   width: 31.62557%;
@@ -109,6 +143,17 @@
     width: 31.62557%;
     float: right;
     margin-right: 0; }
+  @media screen and (max-width: 580px) {
+    .greenpromo__widget {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0; }
+      .greenpromo__widget:last-child {
+        width: 100%;
+        float: left;
+        margin-left: 0;
+        margin-right: 0; } }
 
 .plan-widget {
   width: 48.71918%;
@@ -118,6 +163,17 @@
     width: 48.71918%;
     float: right;
     margin-right: 0; }
+  @media screen and (max-width: 580px) {
+    .plan-widget {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0; }
+      .plan-widget:last-child {
+        width: 100%;
+        float: left;
+        margin-left: 0;
+        margin-right: 0; } }
 
 .footer-info {
   width: 57.26598%;
@@ -129,16 +185,38 @@
   float: right;
   margin-right: 0; }
 
+@media screen and (max-width: 580px) {
+  .footer-info,
+  .footer-subscr {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; } }
+
 .footer-menu {
   width: 14.53196%;
   float: left;
   margin-right: 2.56165%; }
+  @media screen and (max-width: 580px) {
+    .footer-menu {
+      width: 31.62557%;
+      float: left;
+      margin-right: 2.56165%; }
+      .footer-menu:last-child {
+        width: 31.62557%;
+        float: right;
+        margin-right: 0; } }
 
 body {
   color: #959595;
   font-family: "Open Sans", sans-serif;
   min-width: 320px;
   position: relative; }
+
+h1,
+h2,
+h3 {
+  margin: 0; }
 
 /* ШАПКА */
 .header {
@@ -150,9 +228,20 @@ body {
 
 .top-panel__wrap {
   margin-bottom: 350px; }
+  @media screen and (max-width: 580px) {
+    .top-panel__wrap {
+      text-align: center; } }
+
+@media screen and (max-width: 580px) {
+  .logo {
+    margin-bottom: 10px;
+    display: inline-block; } }
 
 .main-menu {
   float: right; }
+  @media screen and (max-width: 580px) {
+    .main-menu {
+      float: none; } }
 
 .main-menu__list {
   margin: 0;
@@ -193,6 +282,9 @@ body {
       top: 625px;
       right: 80px;
       max-width: 50%; } }
+  @media screen and (max-width: 580px) {
+    .iphone {
+      display: none; } }
 
 /* ВИДЖЕТЫ ЦВЕТНЫЕ */
 .widget-box {
@@ -258,7 +350,7 @@ body {
   margin-bottom: 35px; }
 
 .like {
-  font-weight: .like light;
+  font-weight: 300;
   position: absolute;
   bottom: 40px;
   right: 40px; }
@@ -293,6 +385,9 @@ body {
 
 .margin-wrap {
   padding-top: 135px; }
+  @media screen and (max-width: 580px) {
+    .margin-wrap {
+      padding-top: 0; } }
 
 .privilege-box__title {
   margin-bottom: 55px;
@@ -325,6 +420,10 @@ body {
   @media screen and (max-width: 768px) {
     .morepower {
       height: 575px; } }
+  @media screen and (max-width: 580px) {
+    .morepower {
+      height: 475px;
+      padding-top: 40px; } }
 
 .morepower-box {
   color: #fff; }
@@ -336,6 +435,9 @@ body {
 .morepower-wrapper .promo-text {
   line-height: 1.750em;
   padding-right: 60px; }
+  @media screen and (max-width: 414px) {
+    .morepower-wrapper .promo-text {
+      padding-right: 0; } }
 
 /* GREEN PROMO */
 .greenpromo {
@@ -346,6 +448,10 @@ body {
   @media screen and (max-width: 768px) {
     .greenpromo {
       padding-bottom: 110px; } }
+  @media screen and (max-width: 580px) {
+    .greenpromo {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
 
 .greenpromo__title {
   color: #fff; }
@@ -366,6 +472,10 @@ body {
   @media screen and (max-width: 768px) {
     .plan {
       padding-bottom: 110px; } }
+  @media screen and (max-width: 580px) {
+    .plan {
+      padding-top: 20px;
+      padding-bottom: 40px; } }
 
 .plan-widget {
   padding: 50px 53px; }
@@ -439,6 +549,9 @@ body {
 
 .footer-info {
   padding-right: 100px; }
+  @media screen and (max-width: 670px) {
+    .footer-info {
+      padding-right: 50px; } }
 
 .footer-info__title {
   margin-bottom: 25px; }
@@ -464,6 +577,12 @@ body {
   padding: 20px 15px;
   font-size: 1.125em;
   text-transform: uppercase; }
+  @media screen and (max-width: 580px) {
+    .subscr-inpt {
+      width: 85.46804%;
+      float: left;
+      margin-right: 2.49767%;
+      margin-right: 0; } }
 
 .sbscr-btn {
   width: 14.89869%;
@@ -474,6 +593,11 @@ body {
   color: #fff;
   cursor: pointer;
   padding: 20px 15px; }
+  @media screen and (max-width: 580px) {
+    .sbscr-btn {
+      width: 14.53196%;
+      float: right;
+      margin-right: 0; } }
   .sbscr-btn i {
     font-weight: 300; }
 

@@ -4,6 +4,11 @@ body {
 	min-width: 320px;
 	position: relative;
 }
+h1,
+h2,
+h3 {
+	margin: 0;
+}
 /* ШАПКА */ 
 .header {
 	color: $white;
@@ -14,13 +19,23 @@ body {
 }
 .top-panel__wrap {
 	margin-bottom: 350px;
+	@media screen and (max-width: 580px) {
+		text-align: center;
+	}
 }
-.logo {}
+.logo {
+	@media screen and (max-width: 580px) {
+		margin-bottom: 10px;
+		display: inline-block;
+	}
+}
 .main-menu {
 	float: right;
+	@media screen and (max-width: 580px) {
+		float: none;
+	}
 }
 .main-menu__list {
-
 	margin: 0;
 	padding: 0;
 }
@@ -60,5 +75,8 @@ body {
 		top: 625px;
 		right: 80px;
 		max-width: 50%;
+	}
+	@media screen and (max-width: 580px) {
+		display: none;
 	}
 }
