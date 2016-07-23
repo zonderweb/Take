@@ -1,3 +1,4 @@
+/* ВИДЖЕТЫ ЦВЕТНЫЕ */ 
 .widget-box {
 	color: $white;
 	margin-bottom: 90px;
@@ -27,9 +28,7 @@
 	height: 243px;
 	position: relative;
 }
-.widget__last {
-	// padding-bottom: 32px;
-}
+.widget__last {}
 .widget__title {
 	font-size: 1.875em;
 	font-weight: $light;
